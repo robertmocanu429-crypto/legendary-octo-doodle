@@ -1,5 +1,14 @@
 public class Aufgabe02_1 {
-    public class void main (String[] args) {
+    public static void main(String[] args){
+        int summe;
         int a;
+        int b;
+
+        a = 7;
+        b = 13;
+        summe = a + b;
+        System.out.print (a + " + " + b + " ergibt ");
+        System.out.println(summe);
+        
     }
 }
